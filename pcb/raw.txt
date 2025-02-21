@@ -1,0 +1,108 @@
+points:
+  zones:
+
+    matrix:
+      key.width: cx
+      key.height: cy
+      key.padding: cy
+      key.spread: cx
+      key.origin: [-0.5cx,-0.5cy]
+      anchor:
+        rotate: -12
+
+      rows:
+        bottom:
+        home:
+        top:
+
+
+      columns:
+
+
+        pinky:
+          rows.top.skip: true
+          rows.home.skip:
+          rows.bottom.skip:
+          key.splay:
+          key.stagger : cy
+
+
+        ring:
+
+          key.splay: -4
+          key.stagger: 0.cy
+          key.spread: 1cx
+
+        middle:
+
+          key.stagger: 0.3cy
+          key.splay: -3
+          key.spread: 1cx
+
+        index:
+          key.stagger: -0.3cy
+          key.splay: -3
+        inner:
+          key.stagger: -0cy
+          rows.top.skip:
+
+    thumbfan:
+      key.width: 1cx
+      key.height: cy
+      key.padding: cy
+      key.spread: cx
+      key.origin: [-0.5cx,-0.5cy]
+
+      anchor:
+        ref: matrix_index_bottom
+        shift: [cx, -1.2cy]
+      columns:
+        near:
+          key.splay: -15
+        inner:
+          key.splay: -10
+
+
+
+
+
+      rows:
+        thumb:
+  rotate: 0
+  mirror:
+    ref: matrix_inner_top
+    distance: 34
+
+outlines:
+  raw:
+    - what: rectangle
+      where: true
+      bound: false
+      size: [18,17]
+      corner:
+
+
+pcbs:
+  faustus:
+    outlines:
+      main:
+        outline: raw
+    footprints:
+      keys:
+        what: choc
+        where: true
+        params:
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+          reverse: false
+          keycaps: true
+      promicro:
+        what: promicro
+        where:
+          ref.aggregate.parts: [matrix_inner_top, mirror_matrix_inner_top]
+          shift: [0, 0]
+          rotate: -90
+        params:
+          orientation: "up"
+      
+

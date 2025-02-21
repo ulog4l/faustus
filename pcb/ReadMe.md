@@ -1,0 +1,1 @@
+provided are the kicad files as well as the scuffed freecad project used to construct the outline of the pcb and the ergogen code to generate the pcb(footprints and such are wrong though, it's just here as a reference)

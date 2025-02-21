@@ -1,0 +1,6887 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "853f74f9-0539-4086-af3a-10833ab31dee")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Diode:BAV70"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BAV70"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAV70_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 1.27 0) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Miao:Miao_full_pinout"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Miao_full_pinout_1_1"
+				(rectangle
+					(start -8.89 12.7)
+					(end 8.89 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Miao\n\n"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 7.62 0)
+					(length 2.54)
+					(name "P3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "P1.6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "P1.5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 2.54 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 7.62 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -11.43 0)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -11.43 180)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 11.43 180)
+					(length 2.54)
+					(name "P1.0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 11.43 0)
+					(length 2.54)
+					(name "P3.3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 5.08 0)
+					(length 2.54)
+					(name "P1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "P1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "P1.3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -2.54 0)
+					(length 2.54)
+					(name "P3.5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -5.08 0)
+					(length 2.54)
+					(name "P3.4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -7.62 0)
+					(length 2.54)
+					(name "P3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -7.62 180)
+					(length 2.54)
+					(name "RX/CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -5.08 180)
+					(length 2.54)
+					(name "P1.7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 233.68 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03acf923-8669-417f-a63a-738464876ff4")
+	)
+	(junction
+		(at 217.17 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fb9c9a2-4e71-4f2e-b6e3-d044deb4d5ef")
+	)
+	(junction
+		(at 265.43 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e098638-7dbd-4088-9e1f-4ac6f2e43566")
+	)
+	(junction
+		(at 104.14 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "224d534e-a812-4a38-85ae-a7eab67fdc76")
+	)
+	(junction
+		(at 88.9 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2eeab8a8-3677-44f6-823f-625c4ebce9cb")
+	)
+	(junction
+		(at 102.87 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a87fed3-29cf-404a-8a85-0c76c5ce4b6b")
+	)
+	(junction
+		(at 219.71 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49f42dd1-2f64-45e9-943d-01dfe2d98ceb")
+	)
+	(junction
+		(at 27.94 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50a7960c-76ce-40b8-bb08-0daee39805f4")
+	)
+	(junction
+		(at 265.43 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66258e9f-81b5-4fed-a0bf-d1389ef3c246")
+	)
+	(junction
+		(at 200.66 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68e4b94c-bdc7-4b4d-9dfe-cc896da40076")
+	)
+	(junction
+		(at 200.66 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a99b62a-f3f2-4c60-83f9-aabe8808b83d")
+	)
+	(junction
+		(at 80.01 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77284f79-61ee-45c2-bc4e-47c40bc06d34")
+	)
+	(junction
+		(at 118.11 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83049555-894c-496b-a1e8-28c3f20ef8de")
+	)
+	(junction
+		(at 54.61 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "855f25b1-3231-4fde-b3c4-33a918320038")
+	)
+	(junction
+		(at 100.33 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "892c6a98-0448-445d-bb02-de0a12ce2f1e")
+	)
+	(junction
+		(at 118.11 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ba26c2d-2d15-4cd2-bdcf-f7a12f8b2700")
+	)
+	(junction
+		(at 248.92 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a20fd148-a0cc-4895-b2a6-8c86f434f504")
+	)
+	(junction
+		(at 237.49 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7f6699e-ecaf-4b2e-b88d-846eee6179c0")
+	)
+	(junction
+		(at 113.03 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b072acf3-a2af-4483-8a3a-7f75443053d1")
+	)
+	(junction
+		(at 233.68 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c67ff1f8-9d14-4df0-90fe-6d95bd17e0c7")
+	)
+	(junction
+		(at 229.87 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdc8b5ea-ecd0-4b60-9965-9a75576c2972")
+	)
+	(junction
+		(at 200.66 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1a67d2b-5454-4401-909e-f3b8e36f0fe9")
+	)
+	(junction
+		(at 118.11 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e34d11c0-a36d-44ad-acdf-404404d807a2")
+	)
+	(junction
+		(at 88.9 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e78e3cb7-43aa-4c53-aee7-012cd79dd151")
+	)
+	(junction
+		(at 217.17 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2258570-8bc4-485f-be70-5805e9572700")
+	)
+	(junction
+		(at 104.14 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f84e65fe-e0a8-42d7-881f-ef73787e2116")
+	)
+	(junction
+		(at 215.9 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa8cf3ef-2377-49bc-88ca-4c3374a345ec")
+	)
+	(no_connect
+		(at 201.93 76.2)
+		(uuid "37b7b80e-396b-415e-8f72-4c03404be7f2")
+	)
+	(no_connect
+		(at 113.03 139.7)
+		(uuid "6cbfaa1d-cf5e-42f6-8657-5aac22ad97d1")
+	)
+	(no_connect
+		(at 232.41 133.35)
+		(uuid "a61c01ad-5b84-4497-bf16-583da701eb1a")
+	)
+	(no_connect
+		(at 151.13 73.66)
+		(uuid "f3689638-66fd-4fbe-b128-b4b1e9bd6279")
+	)
+	(wire
+		(pts
+			(xy 250.19 147.32) (xy 237.49 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d38a38-d3cf-455d-83b4-213d1aab4e2a")
+	)
+	(wire
+		(pts
+			(xy 265.43 106.68) (xy 265.43 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e51290-38ee-4252-ba70-c79f97def2d1")
+	)
+	(wire
+		(pts
+			(xy 114.3 133.35) (xy 114.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0336e2a6-6bec-42cb-83a3-be2bf5e867fe")
+	)
+	(wire
+		(pts
+			(xy 143.51 68.58) (xy 143.51 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06165624-eb74-47bc-b0a4-1a6cc265f0df")
+	)
+	(wire
+		(pts
+			(xy 194.31 71.12) (xy 215.9 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ac147a-8b7e-4cf4-946e-bc1ac521fbab")
+	)
+	(wire
+		(pts
+			(xy 200.66 95.25) (xy 200.66 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08a0d3d4-c0df-4855-ac62-4a696ba7dab1")
+	)
+	(wire
+		(pts
+			(xy 248.92 95.25) (xy 248.92 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca83881-6f36-49b0-ba22-59924ccef880")
+	)
+	(wire
+		(pts
+			(xy 38.1 115.57) (xy 38.1 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ceb7198-00da-4806-b314-4bca5196bc3f")
+	)
+	(wire
+		(pts
+			(xy 198.12 146.05) (xy 198.12 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110c777e-1bde-47f5-8931-c0e7db825e37")
+	)
+	(wire
+		(pts
+			(xy 97.79 121.92) (xy 97.79 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11523222-49b6-40f2-bfb4-c1a6cde9bd06")
+	)
+	(wire
+		(pts
+			(xy 210.82 125.73) (xy 210.82 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a5bcb3-037e-4b36-aec2-4ba2c1e80fa8")
+	)
+	(wire
+		(pts
+			(xy 233.68 95.25) (xy 233.68 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1551b0bc-9686-4cea-8450-fb1f48732afa")
+	)
+	(wire
+		(pts
+			(xy 90.17 107.95) (xy 95.25 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1575937e-cae7-490b-bf8f-79c44407d423")
+	)
+	(wire
+		(pts
+			(xy 38.1 129.54) (xy 27.94 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f0d888-3f9f-4122-a3a7-3eb8e0157c60")
+	)
+	(wire
+		(pts
+			(xy 186.69 110.49) (xy 186.69 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1abcf1af-4875-4601-ae7a-c1cf5f4236e2")
+	)
+	(wire
+		(pts
+			(xy 265.43 82.55) (xy 265.43 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1eb744-dafd-4225-a9f7-57d5abbb92b2")
+	)
+	(wire
+		(pts
+			(xy 80.01 115.57) (xy 80.01 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b5b751b-81fa-4ace-8029-401333986690")
+	)
+	(wire
+		(pts
+			(xy 243.84 82.55) (xy 241.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c7d766-1325-41d3-9e7b-cf8e0cd2ebc9")
+	)
+	(wire
+		(pts
+			(xy 90.17 115.57) (xy 91.44 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2323ce5b-04db-4560-8b22-01c42bccdfd3")
+	)
+	(wire
+		(pts
+			(xy 113.03 68.58) (xy 113.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "246cb7db-650e-4cbe-bc75-93c91975f035")
+	)
+	(wire
+		(pts
+			(xy 265.43 133.35) (xy 265.43 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25874659-e4a5-4280-b35d-6695ae1ae5df")
+	)
+	(wire
+		(pts
+			(xy 219.71 63.5) (xy 219.71 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "290d063d-1839-4d33-9e87-ebae8c71f15e")
+	)
+	(wire
+		(pts
+			(xy 222.25 147.32) (xy 222.25 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3ba64f-6340-486e-9cd5-98d2c79b04d3")
+	)
+	(wire
+		(pts
+			(xy 120.65 73.66) (xy 128.27 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a5560b3-99e0-4e7b-ab9e-36eca8307746")
+	)
+	(wire
+		(pts
+			(xy 265.43 92.71) (xy 275.59 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2acab304-9fa5-4033-af47-115f661afb8a")
+	)
+	(wire
+		(pts
+			(xy 259.08 114.3) (xy 259.08 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad7748d-a730-45c6-aec4-b554e2189ab8")
+	)
+	(wire
+		(pts
+			(xy 278.13 128.27) (xy 273.05 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e1860d1-897f-46f7-bb99-20d5bd553db2")
+	)
+	(wire
+		(pts
+			(xy 43.18 142.24) (xy 64.77 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f33eab1-8c18-45ef-acb6-e17fa7a40c9e")
+	)
+	(wire
+		(pts
+			(xy 182.88 125.73) (xy 182.88 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b0f21e-5426-4624-af65-ed0db5fb7859")
+	)
+	(wire
+		(pts
+			(xy 113.03 58.42) (xy 104.14 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30da4ff2-ed0f-4a4a-a70a-ab75c0faa282")
+	)
+	(wire
+		(pts
+			(xy 135.89 115.57) (xy 135.89 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "334f8717-8ed1-4b72-a9b9-6200f3b02d9c")
+	)
+	(wire
+		(pts
+			(xy 27.94 96.52) (xy 27.94 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3366ab90-c817-4bea-a118-1a17dec2d5eb")
+	)
+	(wire
+		(pts
+			(xy 99.06 96.52) (xy 99.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340d2ac0-3d71-44c6-a393-bd85dc9dbb85")
+	)
+	(wire
+		(pts
+			(xy 114.3 107.95) (xy 110.49 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34de6856-e821-43c0-884d-fde721c5735b")
+	)
+	(wire
+		(pts
+			(xy 105.41 73.66) (xy 104.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35791bb7-96f7-4f51-86dc-4b073a52d251")
+	)
+	(wire
+		(pts
+			(xy 41.91 107.95) (xy 41.91 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379e71c3-d0e3-42e1-b09f-729d4e6c6cde")
+	)
+	(wire
+		(pts
+			(xy 256.54 119.38) (xy 256.54 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e4aef5-c2b7-4053-9a15-6703c645953f")
+	)
+	(wire
+		(pts
+			(xy 243.84 125.73) (xy 250.19 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37f78a4d-35d6-4802-89be-2ef1a880340e")
+	)
+	(wire
+		(pts
+			(xy 35.56 158.75) (xy 102.87 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a8b283d-8227-4352-947b-613fd584a5af")
+	)
+	(wire
+		(pts
+			(xy 143.51 58.42) (xy 113.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7c8fd0-ece0-4acd-9c1e-a4a3f897e3b8")
+	)
+	(wire
+		(pts
+			(xy 134.62 158.75) (xy 134.62 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4085342e-cddb-42d1-b96f-7a580e4c8033")
+	)
+	(wire
+		(pts
+			(xy 259.08 95.25) (xy 259.08 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42555f6f-b91a-4b6a-88d5-b15f7bcb3832")
+	)
+	(wire
+		(pts
+			(xy 100.33 107.95) (xy 100.33 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42bda5b2-4eb5-4177-a0a2-63c617c8c6e5")
+	)
+	(wire
+		(pts
+			(xy 128.27 73.66) (xy 128.27 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c8bd35-6d77-484f-bc45-95250b6e5ebb")
+	)
+	(wire
+		(pts
+			(xy 222.25 137.16) (xy 215.9 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d8dc91-bf68-468e-a078-ddb87ae504ba")
+	)
+	(wire
+		(pts
+			(xy 80.01 107.95) (xy 80.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ceb31d-e301-45e3-895d-3c20fcfac70b")
+	)
+	(wire
+		(pts
+			(xy 100.33 105.41) (xy 100.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f531cf-7c82-4753-bbad-67ad59e00f23")
+	)
+	(wire
+		(pts
+			(xy 105.41 144.78) (xy 105.41 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4656479e-6477-465c-be2f-51191c4b8612")
+	)
+	(wire
+		(pts
+			(xy 273.05 147.32) (xy 275.59 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4696ff89-bb4a-449e-a687-b64ef6847f0b")
+	)
+	(wire
+		(pts
+			(xy 261.62 121.92) (xy 257.81 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f27bff-119c-4c92-822e-df70bc07659b")
+	)
+	(wire
+		(pts
+			(xy 227.33 95.25) (xy 227.33 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d746a13-bdc1-4c51-9fac-dd84495b78eb")
+	)
+	(wire
+		(pts
+			(xy 233.68 106.68) (xy 233.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e34ba37-1db4-4ba6-94c2-92ab779762c3")
+	)
+	(wire
+		(pts
+			(xy 243.84 106.68) (xy 246.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e77bee0-c120-4beb-8c66-c6465adbf167")
+	)
+	(wire
+		(pts
+			(xy 110.49 153.67) (xy 115.57 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3f1b40-8e33-406d-a63a-35d3fa055e2e")
+	)
+	(wire
+		(pts
+			(xy 193.04 125.73) (xy 193.04 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52848a7c-fec2-4fa4-87ac-a1085ccc33dd")
+	)
+	(wire
+		(pts
+			(xy 210.82 83.82) (xy 208.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5896ac5b-444c-40af-ae1f-3be64ff781e8")
+	)
+	(wire
+		(pts
+			(xy 250.19 125.73) (xy 250.19 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae70b36-150d-4946-a0c5-2be867b83cb6")
+	)
+	(wire
+		(pts
+			(xy 128.27 127) (xy 128.27 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af5dd67-19d9-4712-aaa3-bc6e686566e1")
+	)
+	(wire
+		(pts
+			(xy 132.08 138.43) (xy 182.88 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b31db7c-71e6-458a-bada-efb59126f3d1")
+	)
+	(wire
+		(pts
+			(xy 99.06 81.28) (xy 76.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b699d07-9202-44a8-bb60-7280ee7ada15")
+	)
+	(wire
+		(pts
+			(xy 261.62 106.68) (xy 261.62 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be37053-aa7f-4e4c-9bbd-0f1c0dac2b68")
+	)
+	(wire
+		(pts
+			(xy 217.17 102.87) (xy 217.17 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2a3e0f-9b12-4e5d-a868-e3d467d097ee")
+	)
+	(wire
+		(pts
+			(xy 69.85 107.95) (xy 69.85 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e8338b1-4b67-4e78-b7e4-ebe2c8b79fb5")
+	)
+	(wire
+		(pts
+			(xy 237.49 138.43) (xy 237.49 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60147e6e-dcd0-46d3-9828-9e4a522b32e9")
+	)
+	(wire
+		(pts
+			(xy 68.58 76.2) (xy 68.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ca6dea-0ae6-4429-a166-df2b1f4f2d88")
+	)
+	(wire
+		(pts
+			(xy 190.5 134.62) (xy 190.5 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65753f45-e96c-4bc1-a88b-e77085f45aca")
+	)
+	(wire
+		(pts
+			(xy 110.49 125.73) (xy 110.49 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d84288-c479-4584-a444-012e66135aaa")
+	)
+	(wire
+		(pts
+			(xy 68.58 58.42) (xy 104.14 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a7f7c5-98d5-4bfb-bbee-070c42050e1e")
+	)
+	(wire
+		(pts
+			(xy 210.82 106.68) (xy 214.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670d8188-44d2-443f-a2fb-904bf61a6ca5")
+	)
+	(wire
+		(pts
+			(xy 102.87 158.75) (xy 134.62 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674c24e3-b1a7-46e0-af31-ebaf7f3cbe86")
+	)
+	(wire
+		(pts
+			(xy 115.57 125.73) (xy 110.49 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ef1879-42f7-4297-a13f-5381e2a811c9")
+	)
+	(wire
+		(pts
+			(xy 91.44 115.57) (xy 91.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "685b8840-2b5c-4ee2-aa24-4750dc400f5e")
+	)
+	(wire
+		(pts
+			(xy 127 144.78) (xy 127 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac93546-1b82-4e53-b64e-4fe9aea6314e")
+	)
+	(wire
+		(pts
+			(xy 233.68 86.36) (xy 233.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd7c188-c5cb-417b-b876-675b23d08db9")
+	)
+	(wire
+		(pts
+			(xy 104.14 81.28) (xy 114.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2a9422-0883-484f-94ee-bc54ee8e9a71")
+	)
+	(wire
+		(pts
+			(xy 128.27 107.95) (xy 130.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ddd4c22-4601-4c1f-9ff2-94191089608a")
+	)
+	(wire
+		(pts
+			(xy 248.92 82.55) (xy 265.43 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f0124f-8add-40a8-a31f-74f7504f6306")
+	)
+	(wire
+		(pts
+			(xy 80.01 104.14) (xy 104.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730695fd-6f0c-42ae-833a-543b48e5d5dc")
+	)
+	(wire
+		(pts
+			(xy 88.9 96.52) (xy 88.9 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77093e42-b9f4-428b-acdb-323e2d0e3957")
+	)
+	(wire
+		(pts
+			(xy 54.61 96.52) (xy 54.61 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "790ec8b7-c6dd-4168-924b-59374ce5b295")
+	)
+	(wire
+		(pts
+			(xy 49.53 138.43) (xy 49.53 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797a6fc2-fd2d-4e3c-86c2-a44b9fad1e20")
+	)
+	(wire
+		(pts
+			(xy 54.61 81.28) (xy 60.96 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79bdad65-a68f-4d9b-aaf0-4269ab0e278c")
+	)
+	(wire
+		(pts
+			(xy 27.94 107.95) (xy 27.94 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ebedd0-452f-42b1-88b0-121c7da5d95f")
+	)
+	(wire
+		(pts
+			(xy 208.28 83.82) (xy 208.28 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac50899-82f3-4069-8ca0-0833b0fc84a9")
+	)
+	(wire
+		(pts
+			(xy 217.17 106.68) (xy 217.17 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d018316-5bc2-4315-815f-80a150e94720")
+	)
+	(wire
+		(pts
+			(xy 275.59 106.68) (xy 278.13 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0e47e0-0b1b-4469-a876-cce1d5275b97")
+	)
+	(wire
+		(pts
+			(xy 217.17 101.6) (xy 217.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de46e17-2b89-4295-9db1-907dd4b95197")
+	)
+	(wire
+		(pts
+			(xy 81.28 128.27) (xy 81.28 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e07aa37-9f80-4a64-8243-f56f78c847c6")
+	)
+	(wire
+		(pts
+			(xy 77.47 140.97) (xy 95.25 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e75392d-79a3-4bbe-a03e-db1431d24f68")
+	)
+	(wire
+		(pts
+			(xy 265.43 138.43) (xy 237.49 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "843f71ee-83c9-4f9a-bf3d-e4bde6fee7f7")
+	)
+	(wire
+		(pts
+			(xy 215.9 71.12) (xy 219.71 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "852ee846-baa2-40c6-b40d-2910d11204cc")
+	)
+	(wire
+		(pts
+			(xy 118.11 96.52) (xy 118.11 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c70dab-09f9-46e3-8bc4-35420a3cc1ce")
+	)
+	(wire
+		(pts
+			(xy 88.9 138.43) (xy 88.9 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e57d11-d5c5-400f-afcd-cf1811b1b6b1")
+	)
+	(wire
+		(pts
+			(xy 193.04 134.62) (xy 190.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88560edd-9603-4a06-b1e9-3db2a3a9a18e")
+	)
+	(wire
+		(pts
+			(xy 215.9 137.16) (xy 215.9 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88adc825-58b1-44cc-a078-fc909bfdbf65")
+	)
+	(wire
+		(pts
+			(xy 88.9 88.9) (xy 88.9 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89174ec6-9e5f-460a-b192-0381fc8f2067")
+	)
+	(wire
+		(pts
+			(xy 104.14 58.42) (xy 104.14 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89fea030-461a-4f4d-ad8c-b2d47d49edb8")
+	)
+	(wire
+		(pts
+			(xy 259.08 106.68) (xy 261.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf58043-94fe-401e-bf1a-553e38d59c9f")
+	)
+	(wire
+		(pts
+			(xy 265.43 114.3) (xy 265.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dad7678-3570-478f-b741-a108241e4bbb")
+	)
+	(wire
+		(pts
+			(xy 35.56 147.32) (xy 35.56 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dea3814-a9ab-49fe-94ef-bb7b07380022")
+	)
+	(wire
+		(pts
+			(xy 64.77 107.95) (xy 69.85 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e80f863-664f-4bec-92e8-77f7d8594650")
+	)
+	(wire
+		(pts
+			(xy 198.12 157.48) (xy 229.87 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eed68ad-b4f8-44d4-8fa3-1da895168c94")
+	)
+	(wire
+		(pts
+			(xy 27.94 129.54) (xy 27.94 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917b6e44-15b5-4b75-83b0-51eedf1ef354")
+	)
+	(wire
+		(pts
+			(xy 210.82 140.97) (xy 205.74 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9352c4a9-7c56-409c-a824-02e4e40e97bf")
+	)
+	(wire
+		(pts
+			(xy 54.61 107.95) (xy 54.61 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "938609ff-8f7a-4a35-af32-0c30551687cc")
+	)
+	(wire
+		(pts
+			(xy 233.68 114.3) (xy 233.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93edf9ad-6044-4128-ba01-4eb7a7665857")
+	)
+	(wire
+		(pts
+			(xy 200.66 106.68) (xy 200.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9608a34d-ab15-4c52-8e9b-b1ee1c0ba618")
+	)
+	(wire
+		(pts
+			(xy 118.11 105.41) (xy 100.33 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96afa24f-ebd8-4402-820a-e77304eb1fa6")
+	)
+	(wire
+		(pts
+			(xy 256.54 147.32) (xy 257.81 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "983d8c72-1c29-437d-9032-23944bb6b2f7")
+	)
+	(wire
+		(pts
+			(xy 210.82 114.3) (xy 210.82 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "994f5699-3078-4b79-bd31-efc9fc81dc92")
+	)
+	(wire
+		(pts
+			(xy 54.61 101.6) (xy 54.61 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c6bb7cd-9464-4d86-a9bd-563667ceaa69")
+	)
+	(wire
+		(pts
+			(xy 217.17 124.46) (xy 217.17 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a02e67ec-0527-4c34-8951-efc81f047188")
+	)
+	(wire
+		(pts
+			(xy 132.08 127) (xy 132.08 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a13e9a5f-9780-46f3-af0c-f050d7b0765b")
+	)
+	(wire
+		(pts
+			(xy 114.3 96.52) (xy 114.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f2c930-d565-4706-9ccb-eb79113cefcf")
+	)
+	(wire
+		(pts
+			(xy 248.92 100.33) (xy 248.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a501622f-89ed-4894-85a4-99bd31cb6acf")
+	)
+	(wire
+		(pts
+			(xy 104.14 73.66) (xy 104.14 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e89d21-80a3-41d6-a29d-a4eb96752011")
+	)
+	(wire
+		(pts
+			(xy 77.47 124.46) (xy 77.47 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa70759c-5b05-485a-8972-77e8d526312e")
+	)
+	(wire
+		(pts
+			(xy 215.9 121.92) (xy 227.33 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc80fe0-338a-49b1-a45b-0a3f9b785404")
+	)
+	(wire
+		(pts
+			(xy 118.11 87.63) (xy 118.11 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afdabd18-e2a7-4dc5-a1dd-7abe278095f2")
+	)
+	(wire
+		(pts
+			(xy 210.82 95.25) (xy 210.82 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b00e2b69-13ec-42a1-852d-c20ec199931b")
+	)
+	(wire
+		(pts
+			(xy 95.25 140.97) (xy 95.25 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b151e39f-ef25-4e6d-8a30-22fabb45fc80")
+	)
+	(wire
+		(pts
+			(xy 259.08 119.38) (xy 256.54 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c2e0b0-cd9e-4f50-9b96-d48d8daf445d")
+	)
+	(wire
+		(pts
+			(xy 96.52 133.35) (xy 114.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40fd848-5049-4cb5-96a0-52dc2ee05e64")
+	)
+	(wire
+		(pts
+			(xy 275.59 147.32) (xy 275.59 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b47e5d40-f2eb-4ad8-ae90-9e0880a39fb1")
+	)
+	(wire
+		(pts
+			(xy 118.11 115.57) (xy 118.11 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b676d098-6ab6-48a2-a438-060ba8e44b8a")
+	)
+	(wire
+		(pts
+			(xy 224.79 138.43) (xy 237.49 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92b7c42-63bb-4e70-a8c6-9274ba673c97")
+	)
+	(wire
+		(pts
+			(xy 229.87 152.4) (xy 265.43 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b949fdf6-75de-42bc-beb1-6e8ee03341b0")
+	)
+	(wire
+		(pts
+			(xy 229.87 157.48) (xy 229.87 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b94c8db2-e526-4123-9069-96de7c8cc24f")
+	)
+	(wire
+		(pts
+			(xy 243.84 95.25) (xy 243.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6b0bc4-86d2-4534-a0ae-9ee5c765d06b")
+	)
+	(wire
+		(pts
+			(xy 64.77 142.24) (xy 64.77 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe2f10e-5eba-4a1e-8505-67c5008c3afa")
+	)
+	(wire
+		(pts
+			(xy 97.79 121.92) (xy 130.81 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea4a889-6f84-418a-b17e-7c3b3437990d")
+	)
+	(wire
+		(pts
+			(xy 69.85 133.35) (xy 57.15 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01abbd2-0121-4d62-9bdd-b56af2a1097c")
+	)
+	(wire
+		(pts
+			(xy 233.68 100.33) (xy 248.92 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c317d7ad-dbe6-4838-ba62-303bf310a516")
+	)
+	(wire
+		(pts
+			(xy 38.1 107.95) (xy 41.91 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c58d7cb7-b557-4471-8b98-f10492cd7a59")
+	)
+	(wire
+		(pts
+			(xy 118.11 127) (xy 118.11 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c59a0578-6606-45d7-94cc-c7b92c8f957c")
+	)
+	(wire
+		(pts
+			(xy 200.66 114.3) (xy 200.66 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63d1ca4-7611-42f6-b78f-75ef8fb4e8a9")
+	)
+	(wire
+		(pts
+			(xy 246.38 106.68) (xy 246.38 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc307894-5fbc-4be4-8146-6a85e2ce8159")
+	)
+	(wire
+		(pts
+			(xy 91.44 124.46) (xy 77.47 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce13184e-86f9-4430-ad26-94da8224e677")
+	)
+	(wire
+		(pts
+			(xy 227.33 121.92) (xy 227.33 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceedc2d1-90a3-4d71-acfa-4408a4e61686")
+	)
+	(wire
+		(pts
+			(xy 243.84 114.3) (xy 243.84 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4c8eca-6e44-4358-9077-91abf4b01eac")
+	)
+	(wire
+		(pts
+			(xy 118.11 107.95) (xy 118.11 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f80d4a-9955-478e-a575-82336cdc60a6")
+	)
+	(wire
+		(pts
+			(xy 278.13 106.68) (xy 278.13 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37e65f9-d195-451d-8b8d-5784090f3b7b")
+	)
+	(wire
+		(pts
+			(xy 130.81 107.95) (xy 130.81 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45f450e-34dd-4f3b-bf3a-554faff9ba40")
+	)
+	(wire
+		(pts
+			(xy 229.87 128.27) (xy 229.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d580730a-e62f-4445-9f5f-6261227b839b")
+	)
+	(wire
+		(pts
+			(xy 214.63 124.46) (xy 217.17 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e2984f-30f4-47d9-8014-c3860929a83e")
+	)
+	(wire
+		(pts
+			(xy 115.57 153.67) (xy 115.57 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1fa73b-873c-4b8f-abe9-e7477f130a0c")
+	)
+	(wire
+		(pts
+			(xy 210.82 110.49) (xy 186.69 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ff5811-7856-46d4-a310-88a1021216eb")
+	)
+	(wire
+		(pts
+			(xy 217.17 101.6) (xy 233.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18adadd-5a82-45f3-b39f-b4e17a9c347e")
+	)
+	(wire
+		(pts
+			(xy 257.81 121.92) (xy 257.81 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e29e09b6-4bf5-40a7-960b-47bd07c24d36")
+	)
+	(wire
+		(pts
+			(xy 95.25 128.27) (xy 81.28 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2baf5c1-f83a-4dce-9654-f31faba5fd91")
+	)
+	(wire
+		(pts
+			(xy 217.17 86.36) (xy 217.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ce7976-50dc-4194-a9dd-9771781fa9d8")
+	)
+	(wire
+		(pts
+			(xy 104.14 88.9) (xy 104.14 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3321929-4e00-4fd5-be73-2d9d53ab14c8")
+	)
+	(wire
+		(pts
+			(xy 200.66 102.87) (xy 217.17 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35fcd63-09d8-42d1-9791-135bc815e5a8")
+	)
+	(wire
+		(pts
+			(xy 95.25 107.95) (xy 95.25 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c79c45-3ed6-419e-b3ee-e1e1e134cd66")
+	)
+	(wire
+		(pts
+			(xy 54.61 101.6) (xy 88.9 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c225c6-3ef2-424d-ad22-878d9e6a072f")
+	)
+	(wire
+		(pts
+			(xy 229.87 106.68) (xy 227.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77f72c8-4b93-4c51-86fe-89856307bd6f")
+	)
+	(wire
+		(pts
+			(xy 142.24 127) (xy 142.24 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab897f4-b953-4182-90a8-f0e8ed695f44")
+	)
+	(wire
+		(pts
+			(xy 105.41 148.59) (xy 88.9 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1e2b27-b050-4ee1-972f-b60a88de7514")
+	)
+	(wire
+		(pts
+			(xy 128.27 115.57) (xy 135.89 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee22cb3a-eff8-4a72-ac3c-23f75a2443b2")
+	)
+	(wire
+		(pts
+			(xy 219.71 71.12) (xy 248.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f20c7f2f-eefd-481f-8a6b-a54d5b517285")
+	)
+	(wire
+		(pts
+			(xy 259.08 76.2) (xy 256.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2193149-d8e2-4b6d-a83a-5c12a2a1ff3d")
+	)
+	(wire
+		(pts
+			(xy 227.33 76.2) (xy 223.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54913be-22e2-471e-8861-44aaf375d9d0")
+	)
+	(wire
+		(pts
+			(xy 200.66 125.73) (xy 200.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5778f77-20b8-443e-98ea-d8adf10b0cd5")
+	)
+	(wire
+		(pts
+			(xy 214.63 106.68) (xy 214.63 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f63c3e94-b6d5-469a-9634-8372a6e3fa2c")
+	)
+	(wire
+		(pts
+			(xy 246.38 128.27) (xy 245.11 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f690c605-93d2-41c6-8327-d5242b1a2e44")
+	)
+	(wire
+		(pts
+			(xy 241.3 82.55) (xy 241.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f83ecb78-8cef-4305-94a5-1a44f378881e")
+	)
+	(wire
+		(pts
+			(xy 44.45 96.52) (xy 27.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa765cca-69cd-4d4b-9947-ef36a1ddf272")
+	)
+	(wire
+		(pts
+			(xy 200.66 86.36) (xy 200.66 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6fda75-f910-45cd-a5f3-e0bebf3e46bc")
+	)
+	(wire
+		(pts
+			(xy 248.92 106.68) (xy 248.92 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fceb9b2f-ac18-4497-bed7-2893c37023ed")
+	)
+	(wire
+		(pts
+			(xy 104.14 96.52) (xy 104.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcfaff99-1393-4876-960e-2e76d586e8b8")
+	)
+	(wire
+		(pts
+			(xy 49.53 148.59) (xy 88.9 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe365c9d-542f-44cb-a6d7-05dbe3bcb449")
+	)
+	(wire
+		(pts
+			(xy 128.27 144.78) (xy 127 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8c6cd1-e320-4c19-8f65-cec7e5ee1bd0")
+	)
+	(global_label "R5"
+		(shape input)
+		(at 175.26 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0368bfaa-51a0-42e2-91cb-56d13140c597")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.7247 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 175.26 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fd63157-f86b-44f0-8c2d-bce827c6f7ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.1157 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R0"
+		(shape input)
+		(at 152.4 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b0ee188-9ac2-4a61-8ad8-603fdb3e2556")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.9353 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R2"
+		(shape input)
+		(at 152.4 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2de75f8c-b2d6-4da1-964f-726019b888bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.9353 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R3"
+		(shape input)
+		(at 219.71 63.5 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33a5652f-497e-4a24-bdc4-ae6f2eed745a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 58.0353 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C3"
+		(shape input)
+		(at 200.66 86.36 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d0721e4-7c34-44c5-986b-513734a3d8be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 80.8953 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2"
+		(shape input)
+		(at 152.4 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4284e89e-a366-4978-b160-4b1bcc6e30b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.9353 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C3"
+		(shape input)
+		(at 152.4 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48966cb8-e1c7-49bc-b12c-1d57dc86b72c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.9353 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R2"
+		(shape input)
+		(at 95.25 158.75 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a0583c9-6160-40c1-8b38-e097d71cf807")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 164.2147 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4"
+		(shape input)
+		(at 152.4 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c7e3c30-bbb4-48df-bbdc-67adbca3f562")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.9353 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2"
+		(shape input)
+		(at 217.17 86.36 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b1d3208-6b36-4450-a157-aad0adaf8bd8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.17 80.8953 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R1"
+		(shape input)
+		(at 152.4 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7724e019-b345-47fa-b2dd-d8a29ac7d70e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.9353 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C0"
+		(shape input)
+		(at 175.26 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ec34b1c-08ef-4fd2-b749-0c0973bc3124")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.7247 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C5"
+		(shape input)
+		(at 163.83 138.43 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8268f4e3-e7b1-4b55-a65d-d5aff514aa1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 143.8947 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4"
+		(shape input)
+		(at 200.66 133.35 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84ac2412-ac39-42e8-8ab6-5438cb2da1f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 138.8147 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R3"
+		(shape input)
+		(at 175.26 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e68baa2-d629-4e8c-853d-d791bbe62557")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.7247 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R1"
+		(shape input)
+		(at 73.66 148.59 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c2c194c-9111-4c37-a1c6-ac0f09a1638a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.66 154.0547 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R5"
+		(shape input)
+		(at 204.47 157.48 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5c83068-e9e7-4af8-8cb1-ba0c4013a090")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.47 162.9447 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 233.68 86.36 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b220f14b-6bbd-4425-b8d8-8378d9de755c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 80.8953 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R4"
+		(shape input)
+		(at 245.11 138.43 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b355976c-fb64-4987-9185-ad5d63310455")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 143.8947 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2"
+		(shape input)
+		(at 104.14 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7ec16f3-e6a6-441b-abcc-f6d78e0f64c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 83.4353 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4"
+		(shape input)
+		(at 118.11 134.62 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9777902-cfc6-438f-bf3e-50b3238ec7c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.11 140.0847 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C0"
+		(shape input)
+		(at 275.59 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0f98500-8a77-48c7-a516-12fef430965e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.59 87.2453 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R4"
+		(shape input)
+		(at 175.26 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c59a94d6-b909-4d51-b6ec-921ffaeada7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.7247 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R0"
+		(shape input)
+		(at 104.14 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c772473c-d4bf-4bef-8825-2ab6f7910225")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 49.1453 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C5"
+		(shape input)
+		(at 152.4 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6e86634-67a2-481b-a05d-c29b741e4b76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.9353 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C0"
+		(shape input)
+		(at 27.94 96.52 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef03dcfe-a7a0-4745-aa92-24e67ecefb7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.94 91.0553 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 152.4 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f19b8ded-68ba-4050-b90f-912dd2333042")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.9353 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 88.9 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5f3148c-712c-4b77-ad1b-3582a2c8abba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 83.4353 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C3"
+		(shape input)
+		(at 118.11 87.63 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe0ca203-ea55-4fc3-8a93-804fb87a71a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.11 82.1653 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 113.03 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "003a3881-0652-4e7d-af67-a7362722be7b")
+		(property "Reference" "D2"
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 113.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8bee46b4-0456-4ac1-898e-383bf87be200")
+		)
+		(pin "3"
+			(uuid "91610952-1a00-4c22-bb9d-9c201f600133")
+		)
+		(pin "1"
+			(uuid "db8ac4e6-348f-4083-a8d4-5c63e45f387c")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 222.25 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09144945-4e16-4398-9ed0-097f55e838ff")
+		(property "Reference" "S26"
+			(at 222.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 222.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 222.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 222.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9b70b84-a108-45a8-a8c8-034d04a08e99")
+		)
+		(pin "2"
+			(uuid "c24a1bc5-8235-4140-985d-05f66f7bcc4a")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 85.09 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1298301b-7ec6-4095-8683-8415bd813a82")
+		(property "Reference" "S7"
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 85.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 85.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 85.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a52e8453-65b0-49af-84d9-b62452770ba0")
+		)
+		(pin "2"
+			(uuid "bcd95314-b28e-42fc-a458-d2c77f14de0f")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 123.19 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "136d377b-79c6-4eb1-a549-a26964e5ca3b")
+		(property "Reference" "S14"
+			(at 123.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 123.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 123.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 123.19 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "268d37fa-4b25-4a38-bff9-d4fe3d452536")
+		)
+		(pin "2"
+			(uuid "68278b7b-ff31-425a-8894-5187e4f291cf")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 194.31 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2849e436-9fb2-46d1-b048-2a86bb997770")
+		(property "Reference" "D12"
+			(at 194.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 194.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 194.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 194.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 194.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79f5a3db-c69f-4931-a51a-d030806e5b03")
+		)
+		(pin "3"
+			(uuid "3e2ee51c-0b28-44b0-a608-148d7e31083a")
+		)
+		(pin "1"
+			(uuid "9adde4f7-6b9b-432e-a3be-ae92345257d7")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 49.53 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "307e623b-79a6-4daf-b257-bfa87cae938e")
+		(property "Reference" "S5"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 49.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 49.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 49.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd76e4e6-12e2-4616-abfb-090a9ebfb5fa")
+		)
+		(pin "2"
+			(uuid "e82e8dff-7145-4b8b-b8cd-1b2a091d4750")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 254 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30d09146-b043-4d9c-8635-c92fc41e1216")
+		(property "Reference" "S21"
+			(at 254 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 254 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 254 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 254 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30e66bfe-5469-4fe8-93e5-a6dbb1b2cba5")
+		)
+		(pin "2"
+			(uuid "a263f46b-a501-465f-8f4b-910765d17f6c")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 109.22 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30ec5398-c51f-40f1-8ab0-4970cbba2fa5")
+		(property "Reference" "S11"
+			(at 109.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61c1d923-3d72-45e6-a859-f8b0a03c4ea3")
+		)
+		(pin "2"
+			(uuid "b7817428-1b8a-4889-85b4-2bb377c6bfeb")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 215.9 76.2 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31f728bc-9d68-4f1b-aba0-dfa15059fbd2")
+		(property "Reference" "D11"
+			(at 215.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 215.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 215.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 215.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 215.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a06087f7-cfe1-45f6-8736-7dbcf592997e")
+		)
+		(pin "3"
+			(uuid "c3755e7d-a179-4006-87a6-e0997d8c4096")
+		)
+		(pin "1"
+			(uuid "f069f122-16b3-4de8-9193-1d5219580732")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 105.41 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "391aba94-76c8-4217-ad25-a5afb5b81e74")
+		(property "Reference" "S10"
+			(at 105.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 105.41 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 105.41 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 105.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da8db4ad-5df6-4b03-b0b5-3c340ea6ef8b")
+		)
+		(pin "2"
+			(uuid "381ba143-ab15-4972-b140-fc4b283a9008")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 93.98 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "432b7bbc-d659-47cf-b5d3-087a6bfb3b7c")
+		(property "Reference" "S8"
+			(at 93.98 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 93.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 93.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 93.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b281cd7-5d11-47fb-bafa-b710811c6c79")
+		)
+		(pin "2"
+			(uuid "242aa23b-4982-42c5-b428-d125923c6428")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 238.76 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43471c4a-4040-4807-a69d-dc268c805aa0")
+		(property "Reference" "S22"
+			(at 238.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 238.76 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 238.76 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 238.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e2a7c18-cd03-4363-801c-c6df8fd69903")
+		)
+		(pin "2"
+			(uuid "6a4e848f-7196-49fb-ab00-5065921d9441")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 254 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56be427d-7b17-433c-8428-bdebab6574ef")
+		(property "Reference" "S19"
+			(at 254 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 254 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 254 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 254 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7ecd2a0-d2c5-4359-b099-4fa2b009a7e2")
+		)
+		(pin "2"
+			(uuid "8cc80cfa-b181-461b-81ed-62cf02aabcdd")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 265.43 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ca95ee0-3644-4c1d-b057-783c410f9324")
+		(property "Reference" "D13"
+			(at 265.43 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 265.43 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 265.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 265.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 265.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6907bd6d-6def-40d8-a128-ae6d06f81bc4")
+		)
+		(pin "3"
+			(uuid "d1edd54f-b6d8-4363-b439-50ebe2ee52e1")
+		)
+		(pin "1"
+			(uuid "0c486942-1dc1-498c-93c7-9e366fb4e07d")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 222.25 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68c715b7-5748-4d7d-bbb3-e69cba3aeed3")
+		(property "Reference" "S27"
+			(at 222.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 222.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 222.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 222.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87cdfb44-9558-4a3c-afd0-86bb918eee9f")
+		)
+		(pin "2"
+			(uuid "3be17a78-c38d-4f46-ba40-fcfff7650ea4")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 123.19 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b3424c3-68fd-4999-a926-3dd381d31963")
+		(property "Reference" "S13"
+			(at 123.19 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 123.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1eb449c-fb71-42d6-a372-0fbe126b8598")
+		)
+		(pin "2"
+			(uuid "6ecadfeb-f605-44d1-9122-53bf950a812e")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 35.56 142.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72067ab4-8bcf-4f38-a000-0d0c293f0aa6")
+		(property "Reference" "D8"
+			(at 35.56 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 35.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 35.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 35.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 35.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46988b97-1011-45c6-92ea-a9060de4bc79")
+		)
+		(pin "3"
+			(uuid "deb0582d-0314-46b0-b53d-65dd51f2c1ec")
+		)
+		(pin "1"
+			(uuid "e69e0eb8-ffef-4d7d-a566-1e7cd3d62836")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 59.69 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7300abd2-b093-43ab-8bc6-4c65b09643a0")
+		(property "Reference" "S3"
+			(at 59.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 59.69 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8754af53-0b9c-42fd-91d5-7b8bc8c3c74f")
+		)
+		(pin "2"
+			(uuid "3011fa76-4e22-4ed1-a0a3-c4f1917a6bb8")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 205.74 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7680cdf2-ca8e-435c-86c8-fb35cb9d14b7")
+		(property "Reference" "S30"
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 205.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35a5956a-ef98-40c8-ba9e-4941a4e2d41e")
+		)
+		(pin "2"
+			(uuid "ced25d20-e817-4430-8204-f0f62049954d")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 102.87 153.67 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ce16ecf-7fb2-4fbf-9523-ad7459548edc")
+		(property "Reference" "D9"
+			(at 102.87 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 102.87 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 102.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 102.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 102.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c17f13b-232c-43d7-ad00-dc0c41db9f2a")
+		)
+		(pin "3"
+			(uuid "b4a17260-e152-40cf-aa58-5cf483150a2b")
+		)
+		(pin "1"
+			(uuid "13684bdf-5ca1-48ac-968f-c580a329cabe")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 123.19 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f1af413-3612-4cf1-a7d0-060f270f6f41")
+		(property "Reference" "S15"
+			(at 123.19 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 123.19 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 123.19 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 123.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "297a7f74-170f-483f-8a94-808e26356aa1")
+		)
+		(pin "2"
+			(uuid "6d583edf-cb43-485c-a213-db254a847c13")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 224.79 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81925335-8dce-44c9-941b-a76634ec19ad")
+		(property "Reference" "D15"
+			(at 224.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 224.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19b7157e-06f6-4a9c-b438-57e7b45039ee")
+		)
+		(pin "3"
+			(uuid "f4a5a591-bb02-46d2-965a-363d2f48bd82")
+		)
+		(pin "1"
+			(uuid "544283db-3866-44f4-aa0d-88274f1b709a")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 238.76 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "823a3734-93a7-4c93-9a88-8bb2b8830973")
+		(property "Reference" "S23"
+			(at 238.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 238.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 238.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 238.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c97e941-adb2-46fb-9aa1-67e2ebf97a54")
+		)
+		(pin "2"
+			(uuid "213e704d-1b67-436b-9fe5-87194d2c7a7a")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 254 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85454a35-0782-442c-8ac8-d96160baad42")
+		(property "Reference" "S20"
+			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 254 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 254 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 254 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c8b1f43-2a1e-4b7d-b593-c93a290c03a7")
+		)
+		(pin "2"
+			(uuid "0c8c0091-17b5-4eea-b22f-90e4f2311844")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 237.49 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85dfe5da-4d10-46e5-925e-1933c1f7c730")
+		(property "Reference" "D14"
+			(at 237.49 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 237.49 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 237.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 237.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 237.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2226e90-01e7-4e9b-ad4f-c539bdb3b894")
+		)
+		(pin "3"
+			(uuid "fac6bae5-c3ba-434e-b385-4f4dc3a46b75")
+		)
+		(pin "1"
+			(uuid "3264e047-df5c-4168-8f1a-e066cc129dd4")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 33.02 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8650ea86-6fad-4619-9512-42db52821a2d")
+		(property "Reference" "S2"
+			(at 33.02 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 33.02 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 33.02 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 33.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abd5ac34-1bc4-47b3-877b-4510295ae13f")
+		)
+		(pin "2"
+			(uuid "3003e3a3-8d94-4da0-acc0-19ce62e3dcd1")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 265.43 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "879ea861-8386-4707-8bdc-ffa5a1c28b69")
+		(property "Reference" "D18"
+			(at 265.43 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 265.43 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 265.43 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 265.43 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 265.43 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d1a88e6-c209-4c10-b3d2-1c3490953b9f")
+		)
+		(pin "3"
+			(uuid "0fdc7122-ab3e-499f-8203-587383a36748")
+		)
+		(pin "1"
+			(uuid "6e5c38a7-eb62-46e6-88c0-f6ca015966fa")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 59.69 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8de6387f-7ecb-4007-9088-5b220f6f79d0")
+		(property "Reference" "S4"
+			(at 59.69 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 59.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 59.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 59.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e57fe9fe-6b72-4666-b25b-7544253d5892")
+		)
+		(pin "2"
+			(uuid "025aab50-412f-4c06-a168-f7d01711699d")
+		)
+		(instances
+			(project ""
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 105.41 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9689361b-05b0-474c-8b77-29b02f4d2680")
+		(property "Reference" "D7"
+			(at 105.41 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 105.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 105.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 105.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 105.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "75d50bdd-74cc-4408-b6bf-5ceb192bb31f")
+		)
+		(pin "3"
+			(uuid "17678d6d-1dd6-433a-aaf2-021d11e0f13a")
+		)
+		(pin "1"
+			(uuid "4b23626a-be1e-4386-baae-058b31dbabda")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 248.92 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9785c666-ccba-4af8-9898-7a10eb374893")
+		(property "Reference" "D10"
+			(at 248.92 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 248.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 248.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 248.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 248.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd4b0cf1-eacd-4f28-8c66-924b08073b8a")
+		)
+		(pin "3"
+			(uuid "5975c777-7ea1-4b59-a5ac-2f2ebcb68f9a")
+		)
+		(pin "1"
+			(uuid "1957c219-2f25-406f-9805-2d8d29f58c74")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 270.51 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99be873f-de25-4bc0-91bb-32b1d3b93083")
+		(property "Reference" "S18"
+			(at 270.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 270.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 270.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 270.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e143518-cc21-434d-b19b-be40bfd0f2df")
+		)
+		(pin "2"
+			(uuid "1a42c54a-5b00-4a7b-bfab-51b6f5d937c7")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 134.62 149.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5780669-c170-464d-877b-d773da9eeae5")
+		(property "Reference" "D6"
+			(at 134.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 134.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 134.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 134.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 134.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c09d7c75-d258-4ad1-8917-f29a052bd2ac")
+		)
+		(pin "3"
+			(uuid "aff01f4b-d5ad-4146-b003-dbb378a5b302")
+		)
+		(pin "1"
+			(uuid "a83dda72-0f0f-4aca-a4ce-c23e491e9f4c")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 205.74 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9a00e62-e78a-4dd4-998c-2f1c09566a93")
+		(property "Reference" "S31"
+			(at 205.74 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 205.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 205.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 205.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f41bcd2-0a5c-4fd7-80c1-aa0b987d701a")
+		)
+		(pin "2"
+			(uuid "76e657ba-73d2-4655-96dc-e8da9da3bd41")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Miao:Miao_full_pinout")
+		(at 163.83 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab9f134f-304e-40f4-bf28-24933971c3bc")
+		(property "Reference" "MCU1"
+			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "miao:Miao"
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "17"
+			(uuid "ca261d51-f5c8-4f1d-bea0-8717931d5118")
+		)
+		(pin "9"
+			(uuid "02ca8c7a-730c-432f-bce0-295c8bc2f6f0")
+		)
+		(pin "3"
+			(uuid "cc769db6-924f-4abe-88f5-6a38a534a11d")
+		)
+		(pin "1"
+			(uuid "3e74f19b-233a-4a12-ba9d-a8c30642850a")
+		)
+		(pin "15"
+			(uuid "e19b9cf3-5b1c-4d80-b35b-15a88a5c3688")
+		)
+		(pin "11"
+			(uuid "471311ee-d866-4385-80d0-c97d53e1a762")
+		)
+		(pin "14"
+			(uuid "bbc52bb8-3cd2-4e79-8f85-8e2ccdc04031")
+		)
+		(pin "12"
+			(uuid "f850fe70-0988-4821-a114-d7c4bd907df7")
+		)
+		(pin "13"
+			(uuid "4815af9a-7edc-46c0-9f9f-3b31a70d5cc2")
+		)
+		(pin "7"
+			(uuid "250b27ac-9465-4f41-a8d2-77e4f7495242")
+		)
+		(pin "4"
+			(uuid "9607ad4f-b0c5-46b7-af67-e85783c963d5")
+		)
+		(pin "6"
+			(uuid "068cd1bd-7a80-4f7c-a199-696b00d6216e")
+		)
+		(pin "18"
+			(uuid "fe34bf8e-f24f-4b4d-aa29-7479de2ae407")
+		)
+		(pin "10"
+			(uuid "10762510-2793-4347-8aaf-305c7d08302a")
+		)
+		(pin "16"
+			(uuid "f009476f-8703-45df-bd24-6c69372f7cb1")
+		)
+		(pin "5"
+			(uuid "f44bb25c-ee8e-4452-9245-f3665c8b2b7a")
+		)
+		(pin "2"
+			(uuid "15c5ea32-2849-4a82-930c-f42b717b27ae")
+		)
+		(pin "8"
+			(uuid "a2d30df7-03c0-471a-b045-0f9d9c9d80f9")
+		)
+		(instances
+			(project ""
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "MCU1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 205.74 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abfccc71-9433-4b69-b126-31beafc37b31")
+		(property "Reference" "S28"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a50a74a7-dec8-48f6-99b0-4304501b12ef")
+		)
+		(pin "2"
+			(uuid "b458daa8-e118-4291-978b-bb27e802c86e")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 229.87 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b25f19da-e471-4da4-863e-27dac080962d")
+		(property "Reference" "D17"
+			(at 229.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 229.87 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 229.87 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 229.87 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 229.87 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "742a2473-1d37-48dc-a97c-d2463134f8dd")
+		)
+		(pin "3"
+			(uuid "22ce1b22-c91d-494b-9f29-600717e7a454")
+		)
+		(pin "1"
+			(uuid "f0ac7692-7284-4733-b292-91916c3a837d")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 88.9 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6bb5842-8eba-49ee-9959-4ce0dfb5a730")
+		(property "Reference" "D5"
+			(at 88.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9b95fc5-fec2-4222-a6e4-2b10e69d196a")
+		)
+		(pin "3"
+			(uuid "f9a87a39-3a27-42e2-bcc2-2e9f10f472fb")
+		)
+		(pin "1"
+			(uuid "889941dd-2268-47c1-8277-3e782eb989f4")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 205.74 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b84ddb35-7ce0-4b96-bf67-fecec1e53c2a")
+		(property "Reference" "S29"
+			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 205.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 205.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1df9c5d-14b6-4bb8-aeb4-74e2b78864de")
+		)
+		(pin "2"
+			(uuid "a13c5451-b074-40ae-ac63-aae65e5e61ef")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 143.51 73.66 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfa61a3c-a0dc-42cf-86b9-e09cabdcf24e")
+		(property "Reference" "D3"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 143.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 143.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 143.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 143.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7942080c-573b-4bf3-a7fc-17c8bd87ae1c")
+		)
+		(pin "3"
+			(uuid "78105d40-d0ed-4619-acef-026684013c67")
+		)
+		(pin "1"
+			(uuid "1d923465-dde5-4767-ad2d-ae5b7b20cfc2")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 222.25 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c46c6f65-0703-414c-bec9-d0cfcb8dbdc5")
+		(property "Reference" "S25"
+			(at 222.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 222.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 222.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 222.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90707715-4c08-4f2a-9309-fbdc15d93949")
+		)
+		(pin "2"
+			(uuid "c6fe5bb0-015e-4fd4-8ab4-badc4b062754")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 137.16 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c489da2a-273b-4942-b9e1-c0d9f47457e3")
+		(property "Reference" "S16"
+			(at 137.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 137.16 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 137.16 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 137.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "888e4640-019b-4c55-8df9-12c6246c65d8")
+		)
+		(pin "2"
+			(uuid "d18dc799-3b9f-4d0c-aebf-7d50c7aeedbe")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 33.02 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd146715-3294-4fee-bf61-3269c142cf62")
+		(property "Reference" "S1"
+			(at 33.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 33.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 33.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 33.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c92c70e7-63b1-46c6-8766-445c44c73f6b")
+		)
+		(pin "2"
+			(uuid "6e99494e-7874-4fed-a19f-d8dc38a75cf5")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 198.12 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2286606-2f13-464e-aa6e-e16911dbb92b")
+		(property "Reference" "D16"
+			(at 198.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 198.12 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "402cb960-3ad2-4f21-80d8-1e3818596710")
+		)
+		(pin "3"
+			(uuid "73da059a-d2ec-41aa-a655-1ff4f228c45c")
+		)
+		(pin "1"
+			(uuid "b6966109-eebe-4f9a-98fa-ef1521c6e76b")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 123.19 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d518a38a-61f2-4ed9-9150-6b586001cd82")
+		(property "Reference" "S12"
+			(at 123.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 123.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 123.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7128726b-c1c0-4536-8873-662f2bc09265")
+		)
+		(pin "2"
+			(uuid "4f3db44e-eaef-45a3-bebf-be0c73aa5d77")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 105.41 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6c7eb79-87f4-487b-aff7-6b1fd5f87b3b")
+		(property "Reference" "S9"
+			(at 105.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "531ec73d-756a-4484-8fba-66b0d55c5a40")
+		)
+		(pin "2"
+			(uuid "3aeff0ec-adf8-4f04-8eb8-f04a1334ff5c")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 49.53 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e31d7a2c-0e26-410e-adae-9ab455f454ae")
+		(property "Reference" "D4"
+			(at 49.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 49.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 49.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 49.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 49.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db5d72a2-ad7c-4da9-9d13-3be3209b7edb")
+		)
+		(pin "3"
+			(uuid "6715c98c-9fe3-4f5c-baa8-3e1a7274e82b")
+		)
+		(pin "1"
+			(uuid "8678f527-0c88-4382-96b5-7da3d53893c3")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 85.09 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3bb2b14-4512-4950-a9b0-40c87c500c4b")
+		(property "Reference" "S6"
+			(at 85.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 85.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 85.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 85.09 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f22323f2-14f7-41e2-a40d-e3d00bd2d3a1")
+		)
+		(pin "2"
+			(uuid "7719eb42-123a-4ca2-a211-0ccefda91589")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 270.51 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6179a99-017c-498f-87e4-22d2e3426925")
+		(property "Reference" "S17"
+			(at 270.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 270.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 270.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 270.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6a2917a-a502-4a74-86f2-7180587d042b")
+		)
+		(pin "2"
+			(uuid "eabeea54-cc3a-41a6-96ee-01235eccb5a8")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 68.58 81.28 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f80ec24c-d60a-4270-b20a-d7323466f0cf")
+		(property "Reference" "D1"
+			(at 68.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 68.58 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SOT-23_Handsoldering"
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae005fbb-3719-4a79-895a-8908b8d806e7")
+		)
+		(pin "3"
+			(uuid "36a42720-543c-4a2d-9976-0270e9a9c796")
+		)
+		(pin "1"
+			(uuid "f7126d5c-8c22-45c7-8cfb-a2ab6572fdfd")
+		)
+		(instances
+			(project ""
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 187.96 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd8d39c5-7753-4b64-a11d-32233ddfb88d")
+		(property "Reference" "S32"
+			(at 187.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 187.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 187.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 187.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94e7c29e-5903-4174-b260-16ba86ef20ad")
+		)
+		(pin "2"
+			(uuid "1674a979-9730-4e47-ad4c-57b7f8e4df5e")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 238.76 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe6cfb34-bb54-48e4-8923-dc32899db000")
+		(property "Reference" "S24"
+			(at 238.76 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 238.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BeiBob-KiCAD-footprints:SW_Kailh_socket_PG1350_optional"
+			(at 238.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 238.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3666dd1-d3fa-49ad-8b49-2021394f0993")
+		)
+		(pin "2"
+			(uuid "aefcd542-0149-4da9-948b-56b1aa1890b1")
+		)
+		(instances
+			(project "faustus"
+				(path "/853f74f9-0539-4086-af3a-10833ab31dee"
+					(reference "S24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
