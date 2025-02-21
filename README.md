@@ -1,7 +1,7 @@
 # faustus
 
 32 key [hummingbird](https://github.com/PJE66/hummingbird) adjacent keyboard, also taking inspiration from its variations, such as the [zilpzalp](https://github.com/kilipan/zilpzalp) thumb keys\
-also credits to [ergogen](ergogen.cache.works) for simplifying the key placement tremendously
+also credits to [ergogen](ergogen.cache.works) for simplifying the key placement tremendously\
 exclusively supports choc switches, is choc spaced\
 exclusively supports the [MIAO](https://github.com/kilipan/miao) controller and [FAK firmware](https://github.com/semickolon/fak)
 
