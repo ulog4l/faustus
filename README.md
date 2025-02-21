@@ -13,3 +13,5 @@ this keyboard uses BAV70 diodes
 this pcb has some mounting tabs meant to provide freedom in designing cases, but sticking adhesive feet to the bottom is the lowest profile variant possible and therefore preferred
 
 ![](image.jpg)
+
+while i personally have working versions with both hotswap sockets and soldered switches i will of course not take any responsibility for the producteon files being functional, use them at your own risk
